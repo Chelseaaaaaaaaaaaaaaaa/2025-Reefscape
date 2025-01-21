@@ -44,6 +44,8 @@ public class RobotContainer {
     /* Driver Buttons */
     private final JoystickButton kX = new JoystickButton(driver, XboxController.Button.kX.value);
     private final JoystickButton kY = new JoystickButton(driver, XboxController.Button.kY.value);
+    private final JoystickButton kB = new JoystickButton(driver, XboxController.Button.kB.value);
+
 
     /* Subsystems */
     private final Swerve s_Swerve = new Swerve();
